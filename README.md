@@ -59,6 +59,10 @@
 </div>
 <br>
 <div>
+    Date of Issue: <input type="date" name="mydate">
+</div>
+<br>
+<div>
     <input type="submit" value="Submit Now">
     <input type="reset" value="Reset Now">
 </div>
