@@ -1,0 +1,72 @@
+# Body-of-First-Website
+Created body of own website using HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+</head>
+<body>
+<h2>Introduction</h2>
+<p>This is a paragraph.It is written in HTML with the help &lt;p&gt; tag</p>
+<a href="https://www.google.com" target="_blank">Click here to see google homepage</a>
+<h3>Table</h3>
+<table bordercolor="black">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Employee Id</th>
+            <th>Designation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Harry</td>
+            <td>101</td>
+            <td>Programmer</td>
+        </tr>
+        <tr>
+            <td>Rohan Das</td>
+            <td>102</td>
+            <td>HTML Expert</td>
+        </tr>
+        <tr>
+            <td>Shubham</td>
+            <td>103</td>
+            <td>Android developer</td>
+        </tr>
+    </tbody>
+</table>
+<h3>Forms</h3>
+<form action="backend.php">
+<div>
+    Name:&nbsp;&nbsp;<input type="text" name="MyName">
+</div>
+<br>
+<div>
+    Role:&nbsp;&nbsp;<input type="text" name="MyRole">
+</div>
+<br>
+<div>
+    Email:&nbsp;&nbsp;<input type="email" name="myEmail">
+</div>
+<br>
+<div>
+    Eligible or not:&nbsp;&nbsp;<input type="checkbox" name="MyEligibilty">
+</div>
+<br>
+<div>
+    Gender:&nbsp;&nbsp;Male:<input type="radio" name="Gender">&nbsp;&nbsp;Female:<input type="radio" name="Gender">
+</div>
+<br>
+<div>
+    <input type="submit" value="Submit Now">
+    <input type="reset" value="Reset Now">
+</div>
+</form>
+<br>
+<img src="https://source.unsplash.com/user/erondu/1600x900/" alt="Image not available" height="300" width="500">
+</body>
+</html>
